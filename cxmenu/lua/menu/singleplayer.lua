@@ -79,9 +79,9 @@ function PANEL:Init()
     back.name = cxmenu.GetPhrase("#back")
     back.hover = false
     surface.SetFont("cxmenu.mmb")
-    local x,y = surface.GetTextSize(back.name)
+    local x1,y1 = surface.GetTextSize(back.name)
 
-    back:SetPos(50,ScrH()-(y+50)) back:SetSize(x+15,y) back:SetText("")
+    back:SetPos(50+(x+30),ScrH()-(y1+50)) back:SetSize(x1+15,y1) back:SetText("")
     back.Paint = function(self,w,h)
         if self:IsHovered() then 
             back.xdpos = back.xdpos+(15-back.xdpos)/10

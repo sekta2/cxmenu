@@ -62,7 +62,7 @@ function PANEL:Init()
     crtButtonM(cxmenu.GetPhrase("#add"),function() RunGameUICommand("OpenOptionsDialog") end)
     crtButtonM(cxmenu.GetPhrase("#sett"),function() RunGameUICommand("OpenOptionsDialog") end)
     if (IsInGame()) then
-        crtButtonM(cxmenu.GetPhrase("#leave"),function() RunGameUICommand("Disconnect") reloadmainpnl() end)
+        crtButtonM(cxmenu.GetPhrase("#leave"),function() reloadmainpnl() RunGameUICommand("Disconnect") end)
     end
     crtButtonM(cxmenu.GetPhrase("#qu"),function() RunGameUICommand("Quit") end)
 
