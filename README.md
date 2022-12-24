@@ -1,1 +1,3 @@
-![ClassicX Banner](https://raw.githubusercontent.com/sekta2/cxmenu/67b4512326a2b7d14ec926f79e2b79dd5e3b6ec4/firefox_8rZ6aNyQaM_adobe_express.svg)
+![ClassicX Banner](https://raw.githubusercontent.com/sekta2/cxmenu/cf356b11bb9b5bd5f6d7ad010446ead8e88ee8f2/svgbanner.svg)
+
+[Go to wiki/Перейти к вики](https://app.gitbook.com/o/AR4gMCcdo7DLauQrOqHj/home)
